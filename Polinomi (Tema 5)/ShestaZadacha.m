@@ -9,5 +9,3 @@ figure;
 hold on; grid on;
 plot(x, polyval(P1, x));
 plot(x, abs(polyval(P2, x)));
-
-P1 + P2
